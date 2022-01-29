@@ -1,5 +1,5 @@
-canvas=document.getElementById("myCnvas");
-ctx=canvas.getcontext("2d");
+canvas=document.getElementById("myCanvas");
+ctx=canvas.getContext("2d");
 
 greencar_width=75;
 greencar_height=100;
@@ -29,7 +29,7 @@ ctx.drawImage(background_imgTag,0,0,canvas.width,canvas.height );
 
 function uploadgreencar() {
 	
-	ctx.drawImage(greencar_imgTag,greencar_x,greencar_y,greencar.width,greencar.height );
+	ctx.drawImage(greencar_imgTag,greencar_x,greencar_y,greencar_width,greencar_height );
 
 }
 
